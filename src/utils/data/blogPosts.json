@@ -1,5 +1,17 @@
 [
   {
+    "id": 8,
+    "title": "Mes Objectifs 2026 : Roadmap d'un Développeur Junior de 22 ans vers le Niveau Intermédiaire",
+    "slug": "objectifs-2026-roadmap-developpeur-junior-niveau-intermediaire",
+    "excerpt": "À 22 ans et développeur junior, découvrez ma roadmap complète 2026 pour évoluer vers le niveau intermédiaire. TypeScript, React, NestJS, projets concrets et build in public : tout pour progresser intelligemment sans brûler les étapes.",
+    "reading_time": 12,
+    "tags": "objectifs",
+    "sub_tags": ["développement", "build in public", "carrière", "roadmap"],
+    "featured_image_url": "/images/pourquoi-francais-nuls-anglais.webp",
+    "created_at": "24-01-2026",
+    "updated_at": "24-01-2026"
+  },
+  {
     "id": 7,
     "title": "Mon Bilan 2025 : Évolution d'un Développeur Full-Stack à l'Ère de l'IA",
     "slug": "bilan-2025-evolution-developpeur-full-stack-ia",
@@ -9,7 +21,7 @@
     "sub_tags": ["développement", "carrière", "linkedIn", "build in public"],
     "featured_image_url": "/images/bilan-2025-evolution-developpeur-full-stack-ia.webp",
     "created_at": "20-12-2025",
-    "updated_at": "31-12-2025"
+    "updated_at": "20-12-2025"
   },
   {
     "id": 6,
