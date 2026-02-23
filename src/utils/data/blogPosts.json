@@ -1,5 +1,17 @@
 [
   {
+    "id": 9,
+    "title": "Mon Défi 30 Jours pour Améliorer Mon Anglais Oral : Journal Complet",
+    "slug": "defi-30-jours-ameliorer-anglais-oral",
+    "excerpt": "Développeur Full-stack frustré par mon niveau d'anglais oral, j'ai décidé de me lancer un défi de 30 jours axé 100% sur l'oral. Découvrez mon journal quotidien sans filtre, mes doutes, mes progrès et les outils qui ont vraiment fonctionné.",
+    "reading_time": 15,
+    "tags": "développement personnel",
+    "sub_tags": ["anglais", "langues", "productivité", "carrière"],
+    "featured_image_url": "/images/defi-30-jours-ameliorer-anglais-oral.webp",
+    "created_at": "21-02-2026",
+    "updated_at": "21-02-2026"
+  },
+  {
     "id": 8,
     "title": "Mes Objectifs 2026 : Roadmap d'un Développeur Junior de 22 ans vers le Niveau Intermédiaire",
     "slug": "objectifs-2026-roadmap-developpeur-junior-niveau-intermediaire",
@@ -7,7 +19,7 @@
     "reading_time": 12,
     "tags": "objectifs",
     "sub_tags": ["développement", "build in public", "carrière", "roadmap"],
-    "featured_image_url": "/images/pourquoi-francais-nuls-anglais.webp",
+    "featured_image_url": "/images/objectifs-2026-roadmap-developpeur-junior-niveau-intermediaire.webp",
     "created_at": "24-01-2026",
     "updated_at": "24-01-2026"
   },
