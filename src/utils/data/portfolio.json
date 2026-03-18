@@ -1,6 +1,7 @@
 [
   {
     "title": "Holl",
+    "image": "holl",
     "description": "Création complète d'une application web (MERN) d'e-commerce mettant en relation artisans et touristes.",
     "skill": "Full-stack",
     "date": 2024,
@@ -13,6 +14,7 @@
   },
   {
     "title": "Flow",
+    "image": "flow",
     "description": "Réseau social autour de la musique.",
     "skill": "Full-stack",
     "date": "Stand-by",
@@ -24,6 +26,7 @@
   },
   {
     "title": "Gestion administrative",
+    "image": "gestion_administrative",
     "description": "Réalisation d'une API REST pour la gestion d'un site e-commerce.",
     "skill": "Full-stack",
     "date": 2023,
@@ -35,6 +38,7 @@
   },
   {
     "title": "Match",
+    "image": "match",
     "description": "Application de suggestion musicale basée sur les préférences des utilisateurs.",
     "skill": "Full-stack",
     "date": "En cours",
@@ -50,11 +54,11 @@
     "skill": "Front-end",
     "date": 2024,
     "type": "Professionnel",
-    "language": ["Next.js", "TypeScript", "Tailwind"],
-    "link": {}
+    "language": ["Next.js", "TypeScript", "Tailwind"]
   },
   {
     "title": "History.ai",
+    "image": "historyai",
     "description": "Création d'une application mobile permettant de communiquer avec des personnages historique grâce à l'IA.",
     "skill": "Mobile",
     "date": 2024,
@@ -70,8 +74,7 @@
     "skill": "Back-end",
     "date": 2024,
     "type": "Professionnel",
-    "language": ["Node.js", "TypeScript"],
-    "link": {}
+    "language": ["Node.js", "TypeScript"]
   },
   {
     "title": "Automatisation de la gestion de projet",
@@ -79,11 +82,11 @@
     "skill": "Back-end",
     "date": 2025,
     "type": "Professionnel",
-    "language": ["Node.js", "TypeScript"],
-    "link": {}
+    "language": ["Node.js", "TypeScript"]
   },
   {
     "title": "Application météo",
+    "image": "application_meteo",
     "description": "Application web de météo avec de nombreuses fonctionnalités détaillées.",
     "skill": "Front-end",
     "date": 2023,
@@ -95,7 +98,16 @@
     }
   },
   {
+    "title": "Recherche produits",
+    "description": "Page de recherche produits avec appel API REST, système de filtres dynamiques par facettes et affichage responsive mobile-first.",
+    "skill": "Front-stack",
+    "date": 2025,
+    "type": "Personnel",
+    "language": ["Next.js", "React", "CSS"]
+  },
+  {
     "title": "Portfolio",
+    "image": "portfolio",
     "description": "Portfolio professionnel de développeur web : projets, compétences techniques, réalisations. Comprend un blog personnel et mes publications LinkedIn sur mes travaux et réflexions technologiques.",
     "skill": "Front-end",
     "date": 2023,
@@ -112,11 +124,11 @@
     "skill": "Front-end",
     "date": 2023,
     "type": "Professionnel",
-    "language": ["SMTP.js", "JavaScript", "UIkit", "Sass", "HTML"],
-    "link": {}
+    "language": ["SMTP.js", "JavaScript", "UIkit", "Sass", "HTML"]
   },
   {
     "title": "Dataviz",
+    "image": "dataviz",
     "description": "Site dédié au divers projets effectués sur la visualisation de données lié à la pollution atmosphérique.",
     "skill": "Front-end",
     "date": 2023,
@@ -129,6 +141,7 @@
   },
   {
     "title": "Produit 3D",
+    "image": "produit3d",
     "description": "Visualition web d'un produit en 3D lié à un artiste musical.",
     "skill": "Front-end",
     "date": 2023,
@@ -141,6 +154,7 @@
   },
   {
     "title": "Site E-Commerce",
+    "image": "site_e_commerce",
     "description": "Adaptation d'un site de commerce en ligne dédié aux produit d'un artiste musical.",
     "skill": "Back-end",
     "date": 2022,
@@ -152,6 +166,7 @@
   },
   {
     "title": "Forum",
+    "image": "forum",
     "description": "Forum afin de rendre le sujet de la sobriété numérique ouvert à tous.",
     "skill": "Back-end",
     "date": 2022,
@@ -167,8 +182,7 @@
     "skill": "Front-end",
     "date": 2023,
     "type": "Professionnel",
-    "language": ["HTML", "Sass", "JavaScript"],
-    "link": {}
+    "language": ["HTML", "Sass", "JavaScript"]
   },
   {
     "title": "Documentation métier",
@@ -176,11 +190,11 @@
     "skill": "Front-end",
     "date": 2023,
     "type": "Professionnel",
-    "language": ["HTML", "Sass", "JavaScript"],
-    "link": {}
+    "language": ["HTML", "Sass", "JavaScript"]
   },
   {
     "title": "FestView",
+    "image": "festview",
     "description": "Modérateur d'une encyclopédie musicale collaborative.",
     "skill": "Autre",
     "date": 2021,
@@ -193,6 +207,7 @@
   },
   {
     "title": "QuizRap",
+    "image": "quizrap",
     "description": "Community Manager d'une application de quiz musicale.",
     "skill": "Autre",
     "date": 2021,

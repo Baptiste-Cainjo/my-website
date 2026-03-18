@@ -24,32 +24,20 @@ import SquareSmall from "@/components/SquareSmall/SquareSmall";
 import HandShake from "@/assets/svg/icons/hand_shake.svg";
 import Code from "@/assets/svg/icons/code.svg";
 import { ROUTES } from "@/utils/constants/routes";
-
-interface PortfolioItems {
-  title: string;
-  description: string;
-  skill: string;
-  date: number | string;
-  type: string;
-  language: string[];
-  link: {
-    github?: string;
-    watch?: string;
-    video?: string;
-  };
-  endDate?: number;
-}
+import { PortfolioItems } from "@/types/portfolio";
 
 export default function Home() {
   const [portfolio, setPortfolio] = useState<PortfolioItems[]>(
-    portfolioData.filter((item) => item.type === "Personnel")
+    portfolioData.filter((item) => item.type === "Personnel"),
   );
 
   const handleFilterClick = (filter: string) => {
     if (filter === "Tous") {
       setPortfolio(portfolioData);
     } else {
-      const filteredPortfolio = portfolioData.filter((item) => item.type === filter);
+      const filteredPortfolio = portfolioData.filter(
+        (item) => item.type === filter,
+      );
       setPortfolio(filteredPortfolio);
     }
   };
@@ -59,7 +47,7 @@ export default function Home() {
       <div className={HomeStyle.fullBackground}></div>
       <NavBar content={navigation} />
       <NavBtn content={navigation} />
-      <section id="part1" className={HomeStyle.about}>
+      <section className={HomeStyle.about}>
         <div className={HomeStyle["square-info"]}>
           <Image src={HandShake} alt="icon" width={50} height={50} />
           <div>
@@ -85,7 +73,7 @@ export default function Home() {
 
         <Bubble />
       </section>
-      <section id="part2">
+      <section id="part1">
         <H2 titleContent="Mon portfolio créatif" importantWord="portfolio" />
         <div className={HomeStyle.portfolio}>
           <BtnFilter
@@ -95,11 +83,11 @@ export default function Home() {
           <ProjectCard portfolio={portfolio} />
         </div>
       </section>
-      <section id="part3">
+      <section id="part2">
         <H2 titleContent="Les logiciels maitrisés" importantWord="logiciels" />
         <CircleSoftware />
       </section>
-      <section id="part4">
+      <section id="part3">
         <H2 titleContent="Et mon contact !" importantWord="contact" />
         <div className={HomeStyle.contact}>
           <RectMail />

@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import Image, { StaticImageData } from "next/image.js";
+import { PortfolioItems } from "@/types/portfolio";
 import ProjectCardStyle from "./ProjectCard.module.scss";
 import Tooltip from "../Tooltip/Tooltip";
 import languageLinks from "@/utils/data/languageLinks.json";
-
 import Match from "@/assets/images/match.png";
 import ApplicationMeteo from "@/assets/images/application_meteo.png";
 import Dataviz from "@/assets/images/dataviz.png";
@@ -17,25 +17,12 @@ import SiteECommerce from "@/assets/images/site_e_commerce.png";
 import Quizrap from "@/assets/images/quizrap.png";
 import Festview from "@/assets/images/festview.png";
 import GestionAdministrative from "@/assets/images/gestion_administrative.png";
-
 import Default from "@/assets/svg/backgrounds/default.svg";
 import Github from "@/assets/svg/icons/github.svg";
 import Watch from "@/assets/svg/icons/watch.svg";
 
 interface PortfolioProps {
-  portfolio: Array<{
-    title: string;
-    description: string;
-    skill: string;
-    date: number | string;
-    type: string;
-    language: string[];
-    link: {
-      github?: string;
-      watch?: string;
-    };
-    endDate?: number;
-  }>;
+  portfolio: Array<PortfolioItems>;
 }
 
 interface LanguageLinks {
@@ -43,25 +30,24 @@ interface LanguageLinks {
 }
 
 const imageSources: { [key: string]: StaticImageData } = {
-  Match: Match,
-  "Application météo": ApplicationMeteo,
-  Dataviz: Dataviz,
-  Flow: Flow,
-  Forum: Forum,
-  "History.ai": Historyai,
-  Holl: Holl,
-  Portfolio: Portfolio,
-  "Produit 3D": Produit3d,
-  "Site E-Commerce": SiteECommerce,
-  QuizRap: Quizrap,
-  FestView: Festview,
-  "Gestion administrative": GestionAdministrative,
+  match: Match,
+  application_meteo: ApplicationMeteo,
+  dataviz: Dataviz,
+  flow: Flow,
+  forum: Forum,
+  historyai: Historyai,
+  holl: Holl,
+  portfolio: Portfolio,
+  produit3d: Produit3d,
+  site_e_commerce: SiteECommerce,
+  quizrap: Quizrap,
+  festview: Festview,
+  gestion_administrative: GestionAdministrative,
 };
 
 export default function ProjectCard({ portfolio }: PortfolioProps) {
   const [showMore, setShowMore] = useState(false);
   const refCards = useRef<(HTMLLIElement | null)[]>([]);
-
   const onClickShowMore = () => {
     setShowMore(!showMore);
   };
@@ -74,20 +60,14 @@ export default function ProjectCard({ portfolio }: PortfolioProps) {
             (showMore || index < 3) && (
               <li
                 key={`${element.title}-${index}-${showMore}`}
-                className={`${
-                  showMore || index < 3 ? ProjectCardStyle.visible : ""
-                }`}
+                className={`${showMore || index < 3 ? ProjectCardStyle.visible : ""}`}
                 ref={(el) => {
                   refCards.current[index] = el;
                 }}
                 style={{ "--card-index": index } as React.CSSProperties}
               >
                 <Image
-                  src={
-                    element.type === "Professionnel"
-                      ? Default
-                      : imageSources[element.title]
-                  }
+                  src={!element.image ? Default : imageSources[element.image]}
                   alt={`Illustration du projet ${element.title}`}
                   className={ProjectCardStyle["card-image"]}
                 />
@@ -103,13 +83,11 @@ export default function ProjectCard({ portfolio }: PortfolioProps) {
                       <h3 className={ProjectCardStyle.card__title}>
                         {element.title}
                       </h3>
-                      <span>{`${element.date} ${
-                        element.endDate ? `- ${element.endDate}` : ""
-                      } • ${element.type} • ${element.skill}`}</span>
+                      <span>{`${element.date} ${element.endDate ? `- ${element.endDate}` : ""} • ${element.type} • ${element.skill}`}</span>
                     </div>
                   </div>
                   <p className={ProjectCardStyle.card__description}>
-                    {element.description}{" "}
+                    {element.description}
                   </p>
                   <div className={ProjectCardStyle["card-language"]}>
                     {element.language.map((lang, index) => (
@@ -124,7 +102,7 @@ export default function ProjectCard({ portfolio }: PortfolioProps) {
                       </React.Fragment>
                     ))}
                   </div>
-                  {(element.link.github || element.link.watch) && (
+                  {(element.link?.github || element.link?.watch) && (
                     <div className={ProjectCardStyle.card__socials}>
                       {element.link.github && (
                         <>
@@ -139,7 +117,7 @@ export default function ProjectCard({ portfolio }: PortfolioProps) {
                           </a>
                         </>
                       )}
-                      {element.link.watch && (
+                      {element.link?.watch && (
                         <>
                           <a href={element.link.watch} target="_blank">
                             <Image
@@ -156,14 +134,12 @@ export default function ProjectCard({ portfolio }: PortfolioProps) {
                   )}
                 </div>
               </li>
-            )
+            ),
         )}
       </ol>
       <button
         onClick={onClickShowMore}
-        className={`${ProjectCardStyle.btn}${
-          showMore ? ` ${ProjectCardStyle.active}` : ""
-        }`}
+        className={`${ProjectCardStyle.btn}${showMore ? ` ${ProjectCardStyle.active}` : ""}`}
       >
         {showMore ? "Voir moins" : "Voir plus"}
       </button>
