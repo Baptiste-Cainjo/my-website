@@ -1,3 +1,5 @@
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
+
 Il existe des personnes qui semblent glisser à travers la vie avec une **aisance déconcertante**. À l'école, au travail, dans leurs loisirs, elles affichent des **résultats supérieurs à la moyenne** sans paraître fournir d'efforts démesurés. Pendant que d'autres passent des heures à réviser, à comprendre, à s'entraîner, elles réussissent avec une apparente facilité. Ce phénomène, loin d'être anecdotique, soulève des questions profondes sur la nature de l'intelligence, du mérite et de l'égalité des chances.
 
 ## L'observation d'un phénomène invisible
