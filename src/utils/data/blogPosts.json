@@ -1,7 +1,24 @@
 [
   {
+    "id": 10,
+    "title": "Pourquoi certaines personnes réussissent sans effort ?",
+    "slug": "pourquoi-certaines-personnes-reussissent-sans-effort",
+    "excerpt": "Découvrez le concept d'intelligence fluide et pourquoi certaines personnes obtiennent de meilleurs résultats avec moins d'efforts. Une réflexion sur l'inégalité cognitive invisible qui façonne nos vies.",
+    "reading_time": 10,
+    "tags": "intelligence",
+    "sub_tags": [
+      "développement personnel",
+      "intelligence fluide",
+      "éducation",
+      "psychologie"
+    ],
+    "featured_image_url": "/images/pourquoi-certaines-personnes-reussissent-sans-effort.webp",
+    "created_at": "21-02-2026",
+    "updated_at": "21-02-2026"
+  },
+  {
     "id": 9,
-    "title": "Mon Défi 30 Jours pour Améliorer Mon Anglais Oral : Journal Complet ",
+    "title": "Mon Défi 30 Jours pour Améliorer Mon Anglais Oral : Journal Complet",
     "slug": "defi-30-jours-ameliorer-anglais-oral",
     "excerpt": "Développeur Full-stack frustré par mon niveau d'anglais oral, j'ai décidé de me lancer un défi de 30 jours axé 100% sur l'oral. Découvrez mon journal quotidien sans filtre, mes doutes, mes progrès et les outils qui ont vraiment fonctionné.",
     "reading_time": 15,
