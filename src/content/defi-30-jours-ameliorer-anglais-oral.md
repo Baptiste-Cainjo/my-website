@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
 Développeur depuis plusieurs années, je me retrouvais constamment frustré par mon niveau d'anglais. Capable de lire de la documentation technique sans problème, je peine à suivre des conversations ou à m'exprimer clairement lors d'échanges.
 

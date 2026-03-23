@@ -1,6 +1,6 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
-Alors que 2025 touche à sa fin, il est temps de faire le point sur cette année qui aura marqué par des bouleversements technologiques majeurs et une évolution personnelle significative. En tant que développeur full-stack, j'ai navigué entre innovation, apprentissage continu et création de contenu dans un écosystème en perpétuelle mutation. Voici mon bilan complet.
+Alors que 2025 touche à sa fin, il est temps de faire le point sur cette année qui aura marqué par des bouleversements technologiques majeurs et une évolution personnelle significative. En tant que développeur Front-end, j'ai navigué entre innovation, apprentissage continu et création de contenu dans un écosystème en perpétuelle mutation. Voici mon bilan complet.
 
 ## Évolution Professionnelle : Le Développement Full-stack en 2025
 

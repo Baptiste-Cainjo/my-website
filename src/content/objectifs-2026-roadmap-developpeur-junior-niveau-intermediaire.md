@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
 À 22 ans et développeur junior, 2026 sera l'année de ma montée en compétences ! Pas question de brûler les étapes, mais plutôt de construire des bases solides pour devenir un développeur intermédiaire respecté.
 

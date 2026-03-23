@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
 Vous êtes actuellement sur la 2eme partie de mon guide complet pour créer et lancer une application web en 2025. Si vous n'avez pas encore lu la première partie, je vous invite à le faire ici : [Comment créer et lancer une application web en 2025 : Mon guide complet - Partie 1](https://www.baptistecainjo.fr/blog/creer-lancer-application-web-2025-guide-partie-1).
 

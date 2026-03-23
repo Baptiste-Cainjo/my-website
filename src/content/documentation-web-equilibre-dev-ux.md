@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
 Je suis ravi de vous accueillir pour le tout premier article de ce blog ! Pour inaugurer ce nouvel espace d’échanges, je vous propose de découvrir le fruit de mon travail de fin d’études, fruit de plusieurs mois de travail et de recherche.
 
@@ -21,13 +21,11 @@ Vous pouvez visualiser gratuitement mon mémoire en cliquant sur le lien ci-dess
 ## 3. Plan du mémoire
 
 - **Règles et principes pour une documentation internet**
-
   - Utilisation d'un langage adapté
   - Organisation hiérarchique de l'information
   - Navigation intuitive
 
 - **Contraintes du développement et normes d'accessibilité**
-
   - Normes d'accessibilité et implications
   - Exigences du développement web moderne
   - Autres contraintes

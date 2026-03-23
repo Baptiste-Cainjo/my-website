@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Font-end.
 
 Je suis ravi de partager avec vous cette série d'articles en deux parties dédiée au lancement de Match, mon nouveau projet de développement. Vous découvrirez l'ensemble du processus de création d'une application, depuis la conceptualisation de l'idée jusqu'à l'implémentation des premières lignes de code.
 

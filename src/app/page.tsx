@@ -60,7 +60,7 @@ export default function Home() {
           <div className={HomeStyle["square-info"]}>
             <Image src={Code} alt="icon" width={50} height={50} />
             <div>
-              <strong>Développeur Full-stack </strong>
+              <strong>Développeur Font-end </strong>
               <p>depuis 2022.</p>
             </div>
           </div>

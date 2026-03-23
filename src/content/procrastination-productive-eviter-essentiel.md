@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
 Les dernières semaines, j'ai publié plus d'une dizaine de posts et envoyé plusieurs commentaires sur [LinkedIn](https://www.linkedin.com/company/baptistecainjo), j'ai écrit 3 articles et eu 5 à 6 idées d'articles pour mon [blog personnel](https://www.baptistecainjo.fr/blog), j'ai mis à jour [mon portfolio](https://www.baptistecainjo.fr), [mon CV](https://www.baptistecainjo.fr/ress/cv_website.pdf)... Des semaines productives, non ?
 

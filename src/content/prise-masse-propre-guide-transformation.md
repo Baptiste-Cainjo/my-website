@@ -1,4 +1,4 @@
-Bonjour à toutes et à tous, Baptiste, développeur Full-stack.
+Bonjour à toutes et à tous, Baptiste, développeur Front-end.
 
 S'il y a [un domaine où je ne procrastine pas](https://baptistecainjo.fr/blog/procrastination-productive-eviter-essentiel), c'est bien le sport. Il y a encore deux ans, je pesais **64 kilos pour 1m93**. J'avais un physique naturellement fin et je rêvais de me mettre à la **musculation** depuis plusieurs années déjà. Quand j'étais plus jeune, je faisais quelques exercices chez moi dans ma chambre, mais sans structure claire ni discipline, ça n'avait jamais donné de résultats durables. Ayant un métabolisme rapide, j'ai garder ce poids pendant des années. Mais j'ai finalement décidé qu'il était temps de m'y prendre sérieusement et de construire le corps que je voulais vraiment avoir.
 

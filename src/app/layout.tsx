@@ -15,9 +15,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Baptiste Cainjo • Développeur Full-stack",
+  title: "Baptiste Cainjo • Développeur Front-end",
   description:
-    "Site web personnel de Baptiste CAINJO, développeur Full-Stack chez MMA depuis septembre 2022. Ce portfolio contient mes projets, mon parcours ou encore un formulaire de contact.",
+    "Site web personnel de Baptiste CAINJO, développeur Front-end depuis septembre 2022. Ce portfolio contient mes projets, mon parcours ou encore un formulaire de contact.",
   icons: {
     icon: "./images/favicon.ico",
   },
