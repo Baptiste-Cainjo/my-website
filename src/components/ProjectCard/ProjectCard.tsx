@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Image, { StaticImageData } from "next/image.js";
-import { PortfolioItems } from "@/types/portfolio";
+import { ProjectsItems } from "@/types/projects";
 import ProjectCardStyle from "./ProjectCard.module.scss";
 import Tooltip from "../Tooltip/Tooltip";
 import languageLinks from "@/utils/data/languageLinks.json";
@@ -21,8 +21,8 @@ import Default from "@/assets/svg/backgrounds/default.svg";
 import Github from "@/assets/svg/icons/github.svg";
 import Watch from "@/assets/svg/icons/watch.svg";
 
-interface PortfolioProps {
-  portfolio: Array<PortfolioItems>;
+interface ProjectsProps {
+  projects: Array<ProjectsItems>;
 }
 
 interface LanguageLinks {
@@ -45,7 +45,7 @@ const imageSources: { [key: string]: StaticImageData } = {
   gestion_administrative: GestionAdministrative,
 };
 
-export default function ProjectCard({ portfolio }: PortfolioProps) {
+export default function ProjectCard({ projects }: ProjectsProps) {
   const [showMore, setShowMore] = useState(false);
   const refCards = useRef<(HTMLLIElement | null)[]>([]);
   const onClickShowMore = () => {
@@ -55,7 +55,7 @@ export default function ProjectCard({ portfolio }: PortfolioProps) {
   return (
     <>
       <ol className={ProjectCardStyle.cards}>
-        {portfolio.map(
+        {projects.map(
           (element, index) =>
             (showMore || index < 3) && (
               <li

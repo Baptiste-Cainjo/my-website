@@ -1,4 +1,4 @@
-export interface PortfolioItems {
+export interface ProjectsItems {
   title: string;
   image?: string;
   description: string;

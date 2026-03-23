@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import portfolioData from "@/utils/data/portfolio.json";
+import ProjectsData from "@/utils/data/projects.json";
 import navigation from "@/utils/data/navigation.json";
 import networks from "@/utils/data/networks.json";
 
@@ -24,21 +24,21 @@ import SquareSmall from "@/components/SquareSmall/SquareSmall";
 import HandShake from "@/assets/svg/icons/hand_shake.svg";
 import Code from "@/assets/svg/icons/code.svg";
 import { ROUTES } from "@/utils/constants/routes";
-import { PortfolioItems } from "@/types/portfolio";
+import { ProjectsItems } from "@/types/projects";
 
 export default function Home() {
-  const [portfolio, setPortfolio] = useState<PortfolioItems[]>(
-    portfolioData.filter((item) => item.type === "Personnel"),
+  const [projects, setProjects] = useState<ProjectsItems[]>(
+    ProjectsData.filter((item) => item.type === "Personnel"),
   );
 
   const handleFilterClick = (filter: string) => {
     if (filter === "Tous") {
-      setPortfolio(portfolioData);
+      setProjects(ProjectsData);
     } else {
-      const filteredPortfolio = portfolioData.filter(
+      const filteredProjects = ProjectsData.filter(
         (item) => item.type === filter,
       );
-      setPortfolio(filteredPortfolio);
+      setProjects(filteredProjects);
     }
   };
 
@@ -74,13 +74,13 @@ export default function Home() {
         <Bubble />
       </section>
       <section id="part1">
-        <H2 titleContent="Mon portfolio créatif" importantWord="portfolio" />
+        <H2 titleContent="Mes projets créatifs" importantWord="projets" />
         <div className={HomeStyle.portfolio}>
           <BtnFilter
             names={["Tous", "Personnel", "Étudiant", "Professionnel"]}
             onFilterClick={handleFilterClick}
           ></BtnFilter>
-          <ProjectCard portfolio={portfolio} />
+          <ProjectCard projects={projects} />
         </div>
       </section>
       <section id="part2">
