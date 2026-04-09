@@ -61,7 +61,7 @@ export default function Home() {
             <Image src={Code} alt="icon" width={50} height={50} />
             <div>
               <strong>Développeur Font-end </strong>
-              <p>depuis 2022</p>
+              <p>depuis 2022.</p>
             </div>
           </div>
           <nav>
