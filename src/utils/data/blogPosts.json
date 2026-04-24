@@ -6,12 +6,7 @@
     "excerpt": "Découvrez le concept d'intelligence fluide et pourquoi certaines personnes obtiennent de meilleurs résultats avec moins d'efforts. Une réflexion sur l'inégalité cognitive invisible qui façonne nos vies.",
     "reading_time": 10,
     "tags": "intelligence",
-    "sub_tags": [
-      "développement personnel",
-      "intelligence fluide",
-      "éducation",
-      "psychologie"
-    ],
+    "sub_tags": ["développement personnel", "intelligence fluide", "éducation", "psychologie"],
     "featured_image_url": "/images/pourquoi-certaines-personnes-reussissent-sans-effort.webp",
     "created_at": "21-03-2026",
     "updated_at": "21-03-2026"
@@ -107,12 +102,7 @@
     "excerpt": "Découvrez mon retour d'expérience après 3 mois de build in public sur LinkedIn : méthode, résultats, erreurs et conseils pour développeurs.",
     "reading_time": 9,
     "tags": "carrière",
-    "sub_tags": [
-      "linkedIn",
-      "personal branding",
-      "build in public",
-      "networking"
-    ],
+    "sub_tags": ["linkedIn", "personal branding", "build in public", "networking"],
     "featured_image_url": "/images/build-in-public-linkedin.webp",
     "created_at": "27-07-2025",
     "updated_at": "04-08-2025"

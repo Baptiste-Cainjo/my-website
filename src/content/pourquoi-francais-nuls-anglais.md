@@ -39,15 +39,13 @@ La culture éducative française valorise l'excellence académique et sanctionne
 
 Les Français développent ce qu'on appelle la **xénoglossophobie** : la peur de parler une langue étrangère. Des études ont montré une corrélation statistiquement significative entre l'anxiété langagière et les performances à l'oral. Plus on a peur, moins on parle. Moins on parle, moins on progresse. Moins on progresse, plus on a peur. Le cercle vicieux est bouclé.
 
-Dans les autres pays européens, l'erreur est acceptée comme partie intégrante de l'apprentissage. On communique d'abord, on perfectionne ensuite. En France, on veut perfectionner avant de communiquer. Cette inversion des priorités explique en grande partie notre faible score en expression orale (456 points) comparé à notre score en lecture (555 points).
+Dans les autres pays européens, l'erreur est acceptée comme partie intégrante de l'apprentissage. On communique d'abord, on perfectionne ensuite. En France, on veut perfectionner avant de communiquer. Cette inversion des priorités explique en grande partie notre faible score en expression orale comparé à notre score en lecture.
 
 ## L'école : théorie massive, pratique minimale
 
 Le système éducatif français privilégie massivement l'écrit sur l'oral. On passe des heures à décortiquer la grammaire, à apprendre des listes de vocabulaire, à analyser des textes. Mais le temps consacré à la pratique orale reste dérisoire.
 
-Les niveaux d'expression orale ne sont même pas systématiquement évalués au collège. Résultat : en fin de 3ème, 62% des élèves atteignent le niveau A2 en compréhension de l'oral, mais seulement 42% en compréhension de l'écrit. Le déséquilibre est criant.
-
-Les résultats le montrent : en fin de 3ème, seulement 62% des élèves atteignent le niveau A2 en compréhension de l'oral. Un résultat médiocre quand l'objectif national est d'atteindre le B2 au baccalauréat.
+Les niveaux d'expression orale ne sont même pas systématiquement évalués au collège. Les résultats le montrent : en fin de 3ème, seulement 62% des élèves atteignent le niveau A2 en compréhension de l'oral. Un résultat médiocre quand l'objectif national est d'atteindre le B2 au baccalauréat.
 
 ## Le facteur linguistique : la distance entre langues
 
