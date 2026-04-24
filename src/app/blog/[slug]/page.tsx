@@ -27,6 +27,28 @@ export async function generateMetadata({params}: { params: { slug: string } }): 
   return {
     title: `${post.title} • Baptiste Cainjo`,
     description: post.excerpt,
+    openGraph: {
+      title: `${post.title} • Baptiste Cainjo`,
+      description: post.excerpt,
+      url: `https://www.baptistecainjo.fr/blog/${post.slug}`,
+      siteName: "Baptiste Cainjo",
+      locale: "fr_FR",
+      type: "article",
+      images: [
+        {
+          url: `https://www.baptistecainjo.fr${post.featured_image_url}`,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} • Baptiste Cainjo`,
+      description: post.excerpt,
+      images: [`https://www.baptistecainjo.fr${post.featured_image_url}`],
+    },
   };
 }
 

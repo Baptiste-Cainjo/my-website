@@ -4,3 +4,5 @@ Disallow: /ress/cv_imprimable.pdf
 Disallow: /ress/cv_accessible.pdf
 Disallow: /ress/cv_traditionnel.pdf
 Disallow: /ress/cv_website.pdf
+
+Sitemap: https://www.baptistecainjo.fr/sitemap.xml
