@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.webp',
+        url: 'https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.jpg',
         width: 1200,
         height: 630,
         alt: 'Blog • Baptiste Cainjo',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Blog • Baptiste Cainjo',
     description: "Articles sur le développement, l'UX/UI, le développement personnel, le voyage et bien plus encore.",
-    images: ['https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.webp'],
+    images: ['https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.jpg'],
   },
 };
 

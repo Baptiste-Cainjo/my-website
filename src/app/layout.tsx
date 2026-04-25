@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.webp",
+        url: "https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.jpg",
         width: 1200,
         height: 630,
         alt: "Baptiste Cainjo • Développeur Front-end",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     description:
       "Site web personnel de Baptiste CAINJO, développeur Front-end depuis septembre 2022. Ce portfolio contient mes projets, mon parcours ou encore un formulaire de contact.",
     images: [
-      "https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.webp",
+      "https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.jpg",
     ],
   },
 };

@@ -1,5 +1,17 @@
 [
   {
+    "id": 11,
+    "title": "Pourquoi les Français sont-ils nuls en anglais ?",
+    "slug": "pourquoi-francais-nuls-anglais",
+    "excerpt": "Après un voyage de 16 jours en solo à travers l'Europe de l'Est, j'ai décidé de creuser la question : pourquoi les Français galèrent-ils autant avec l'anglais ? Les chiffres sont brutaux, mais les explications sont fascinantes.",
+    "reading_time": 8,
+    "tags": "langues",
+    "sub_tags": ["anglais", "education", "culture", "societe"],
+    "featured_image_url": "/images/pourquoi-francais-nuls-anglais.webp",
+    "created_at": "27-04-2026",
+    "updated_at": "27-04-2026"
+  },
+  {
     "id": 10,
     "title": "Pourquoi certaines personnes réussissent sans effort ?",
     "slug": "pourquoi-certaines-personnes-reussissent-sans-effort",
@@ -15,7 +27,7 @@
     "id": 9,
     "title": "Mon Défi 30 Jours pour Améliorer Mon Anglais Oral : Journal Complet",
     "slug": "defi-30-jours-ameliorer-anglais-oral",
-    "excerpt": "Développeur Font-end frustré par mon niveau d'anglais oral, j'ai décidé de me lancer un défi de 30 jours axé 100% sur l'oral. Découvrez mon journal quotidien sans filtre, mes doutes, mes progrès et les outils qui ont vraiment fonctionné.",
+    "excerpt": "Développeur Front-end frustré par mon niveau d'anglais oral, j'ai décidé de me lancer un défi de 30 jours axé 100% sur l'oral. Découvrez mon journal quotidien sans filtre, mes doutes, mes progrès et les outils qui ont vraiment fonctionné.",
     "reading_time": 15,
     "tags": "développement personnel",
     "sub_tags": ["anglais", "langues", "productivité", "carrière"],
@@ -37,9 +49,9 @@
   },
   {
     "id": 7,
-    "title": "Mon Bilan 2025 : Évolution d'un Développeur Font-end à l'Ère de l'IA",
+    "title": "Mon Bilan 2025 : Évolution d'un Développeur Front-end à l'Ère de l'IA",
     "slug": "bilan-2025-evolution-developpeur-full-stack-ia",
-    "excerpt": "Retour sur une année marquée par des bouleversements technologiques majeurs et une évolution personnelle significative. Entre innovation, apprentissage continu et création de contenu, découvrez mon bilan complet de développeur Font-end en 2025.",
+    "excerpt": "Retour sur une année marquée par des bouleversements technologiques majeurs et une évolution personnelle significative. Entre innovation, apprentissage continu et création de contenu, découvrez mon bilan complet de développeur front-end en 2025.",
     "reading_time": 6,
     "tags": "bilan",
     "sub_tags": ["développement", "carrière", "linkedIn", "build in public"],
