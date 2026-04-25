@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.baptistecainjo.fr/images/linkedin.webp',
+        url: 'https://www.baptistecainjo.fr/images/og-linkedin.jpg',
         width: 1200,
         height: 630,
         alt: 'Blog Linkedin • Baptiste Cainjo',

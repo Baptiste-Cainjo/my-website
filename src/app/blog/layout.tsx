@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.baptistecainjo.fr/images/bilan-2025-developpeur-web-baptiste-cainjo.webp",
+        url: "https://www.baptistecainjo.fr/images/og-blog.jpg",
         width: 1200,
         height: 630,
         alt: "Blog • Baptiste Cainjo",
