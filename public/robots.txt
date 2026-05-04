@@ -5,4 +5,7 @@ Disallow: /ress/cv_accessible.pdf
 Disallow: /ress/cv_traditionnel.pdf
 Disallow: /ress/cv_website.pdf
 
+User-agent: facebookexternalhit
+Allow: /
+
 Sitemap: https://www.baptistecainjo.fr/sitemap.xml
