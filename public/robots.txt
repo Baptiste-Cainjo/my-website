@@ -8,4 +8,7 @@ Disallow: /ress/cv_website.pdf
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: WhatsApp
+Allow: /
+
 Sitemap: https://www.baptistecainjo.fr/sitemap.xml
