@@ -15,7 +15,7 @@ export function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({params}: { params: { slug: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = postsJson.find((p) => p.slug === params.slug);
 
   if (!post) {
@@ -43,24 +43,13 @@ export async function generateMetadata({params}: { params: { slug: string } }): 
         },
       ],
     },
-    twitter: {
-      card: "summary_large_image",
-      title: `${post.title} • Baptiste Cainjo`,
-      description: post.excerpt,
-      images: [`https://www.baptistecainjo.fr${post.featured_image_url}`],
-    },
   };
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = postsJson.find((p) => p.slug === params.slug);
 
-  const filePath = path.join(
-    process.cwd(),
-    "src",
-    "content",
-    `${post?.slug}.md`
-  );
+  const filePath = path.join(process.cwd(), "src", "content", `${post?.slug}.md`);
 
   if (!post) {
     return <p>Post not found</p>;
@@ -72,8 +61,32 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     return <p>Content not found</p>;
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    image: `https://www.baptistecainjo.fr${post.featured_image_url}`,
+    url: `https://www.baptistecainjo.fr/blog/${post.slug}`,
+    datePublished: post.created_at.split("-").reverse().join("-"),
+    dateModified: post.updated_at.split("-").reverse().join("-"),
+    author: {
+      "@type": "Person",
+      name: "Baptiste Cainjo",
+      url: "https://www.baptistecainjo.fr",
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Baptiste Cainjo",
+      url: "https://www.baptistecainjo.fr",
+    },
+    inLanguage: "fr-FR",
+    keywords: [post.tags, ...post.sub_tags].join(", "),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <NavBar />
       <section className={BlogPostStyle.blogPost}>
         <BlogHeader type="post" post={post} />

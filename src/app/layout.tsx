@@ -15,6 +15,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.baptistecainjo.fr"),
   title: "Baptiste Cainjo • Développeur Front-end",
   description:
     "Site web personnel de Baptiste CAINJO, développeur Front-end depuis septembre 2022. Ce portfolio contient mes projets, mon parcours ou encore un formulaire de contact.",
@@ -40,6 +41,18 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Baptiste Cainjo",
+  url: "https://www.baptistecainjo.fr",
+  jobTitle: "Développeur Front-end",
+  description:
+    "Développeur Front-end depuis septembre 2022. Portfolio contenant mes projets, mon parcours et un formulaire de contact.",
+  image: "https://www.baptistecainjo.fr/images/og-home.jpg",
+  sameAs: ["https://www.linkedin.com/in/baptistecainjo", "https://github.com/BaptisteCainjo"],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -47,6 +60,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      </head>
       <body className={outfit.className}>
         <Cursor />
         <main>{children}</main>
