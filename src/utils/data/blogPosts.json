@@ -1,5 +1,17 @@
 [
   {
+    "id": 12,
+    "title": "Un an de blog : le bilan, sans filtre",
+    "slug": "un-an-de-blog-bilan-sans-filtre",
+    "excerpt": "Douze mois, douze articles, une centaine de posts LinkedIn. Le temps du bilan est venu. Ce que ce blog m'a vraiment apporté, ce qui n'a pas marché, ce que je ferais différemment - et pourquoi je m'arrête maintenant.",
+    "reading_time": 15,
+    "tags": "bilan",
+    "sub_tags": ["carrière", "build in public", "linkedIn"],
+    "featured_image_url": "/images/un-an-de-blog-bilan-sans-filtre.webp",
+    "created_at": "23-05-2026",
+    "updated_at": "23-05-2026"
+  },
+  {
     "id": 11,
     "title": "Pourquoi les Français sont-ils nuls en anglais ?",
     "slug": "pourquoi-francais-nuls-anglais",
